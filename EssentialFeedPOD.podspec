@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name = 'EFM'
+  s.name = 'EssentialFeedPOD' # should be the same name as repo in github
   s.version = '1.0.0'
   s.license = { :type => 'MIT', :file => 'LICENSE.md' } #see another type of licence beside 'MIT' licence
   s.summary = 'Essential Feed platform agnostic module'
