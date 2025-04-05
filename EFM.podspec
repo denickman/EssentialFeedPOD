@@ -4,10 +4,10 @@ Pod::Spec.new do |s|
   s.version = '1.0.0'
   s.license = { :type => 'MIT', :file => 'LICENSE.md' } #see another type of licence beside 'MIT' licence
   s.summary = 'Essential Feed platform agnostic module'
-  s.homepage = 'https://github.com/denickman/EFM'
+  s.homepage = 'https://github.com/denickman/EssentialFeedPOD'
   s.authors = { 'Essential Develoer' => 'author@email.com'}
   #s.source = { :git => 'https://github.com/denickman/EFM.git', :branch => 'main' }
-  s.source = { :git => 'https://github.com/denickman/EFM.git', :tag => '1.0.0' }
+  s.source = { :git => 'https://github.com/denickman/EssentialFeedPOD.git', :tag => "#{s.version}" }
 
   s.source_files = 'EFM/**/*.swift'
   s.resources = [
